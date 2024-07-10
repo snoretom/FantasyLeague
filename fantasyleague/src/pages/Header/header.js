@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import '../../css/header/navbar.css';
 import navbarLogoimg from "../../css/imageSource/navBar/FantasyLeague logo.svg";
 
-function Nav() {
+export default function Nav() {
     return(
         <div className="navbar">
             <div className="navbarWrapper">
@@ -45,4 +45,3 @@ function Nav() {
     )
 }
 
-export default Nav;
