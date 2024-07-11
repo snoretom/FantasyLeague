@@ -1,7 +1,7 @@
 import React from "react";
 import '../../css/main/Mainpage.css'
 import Slider from "react-slick";
-
+import firstSlideimg from "../../css/imageSource/mainCarousel/ff_web_home_banner_24_6.jpeg"
 
 export default function Mainpage(params) {
     const settings = {
@@ -49,7 +49,7 @@ export default function Mainpage(params) {
                     <div className="carouselSlide">
                         <Slider {...settings}>
                             <div className="firstSlide">
-                                <h2>ㅎㅇㅎㅇ</h2>
+                                    <img src={firstSlideimg} alt="#"></img>
                             </div>
                             <div className="secondSlide">
                                 <h2>ㅎㅇㅎㅇ</h2>

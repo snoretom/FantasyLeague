@@ -5,6 +5,27 @@
     list-style: none;
     text-decoration: none;
     width: 100%;
-    height: 400px;
-    border: 1px solid green;
+    border: 5px solid green;
+    overflow: hidden;
+    max-height: 90vh;
+   
+}
+.background1{
+    background-image: url(../imageSource/mainCarousel/ff_web_home_banner_24_26.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 95vh;
+    border: 1px solid red;
+}
+.firstSlide{
+    object-position: center;
+    object-fit: contain;
+}
+
+.firstSlide img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
 }
